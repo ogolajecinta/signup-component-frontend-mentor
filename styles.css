@@ -1,20 +1,44 @@
 :root{
     --primary-red: hsl(0, 100%, 74%);
     --primary-green: hsl(154, 59%, 51%);
+    --primary-white: hsl(0, 0%, 100%);
     --accent-blue: hsl(248, 32%, 49%);
     --neutral-dark-blue: hsl(249, 10%, 26%);
     --neutral-grayish-blue: hsl(246, 25%, 77%);
 
 }
 
-.{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
+    
+    background-image: url(./images/bg-intro-desktop.png);  
+    background-color: var(--primary-red);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-image: url(./images/bg-intro-desktop.png);  
+    margin: 4rem 1.5rem;
+    
+}
+
+.alert-primary{
+    font-weight: 400;
+    background-color: var(--accent-blue) !important;
+    color: white;
+}
+
+
+form{
+    background-color: var(--primary-white);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem var(--neutral-dark-blue);
+
+    display: flex;
+    flex-direction: column;
+
+
 }
