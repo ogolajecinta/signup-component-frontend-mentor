@@ -24,41 +24,50 @@
   <!--Section-->
   <section class = "container">
   <div class="row justify-content-end">
-   <div class="col-6">                
+   <div class="col-xl-6">               
 
-  <h1>Learn to code by watching others</h1>
+  <h1 class="mb-3 xl:text-center sm:text-left">Learn to code by watching others</h1>
 
   <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
   but understanding how developers think is invaluable. </p>
-  </div>
-<!--End of section-->
 
-<div class="col-6">
-<p>Try it free 7 days then $20/mo. thereafter</p>
+  </div>
+
+<div class="col-xl-6">
+
+  <div class="alert alert-primary text-center" role="alert">
+    <strong> Try it free 7 days</strong> then $20/mo. thereafter
+  </div>
+
 
 <!--Form Section-->
-  
+  <div >
   <form action="#">
-    <label for="fname">
-      <input id="fname" type="text" placeholder="First Name"> 
-    </label>
-    <br>
-    <label for="lname">
-      <input id="lname" type="text" placeholder="Last Name"> 
-    </label>
-    <br>
-    <label for="email">
-      <input id="email" type="email" placeholder="Email Address"> 
-    </label>
-    <br>
-    <label for="password">
-      <input type="password" name="password" id="password" placeholder="Password"> 
-    </label>
-    <br>
-  <button type="submit">Claim your free trial </button> 
-  <br>
-  <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+    <div class="form-floating mb-3">
+      <input id="floatingInput" class="form-control" type="text" placeholder="First Name"> 
+      <label for="floatingInput">First Name</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input id="floatingInput" class="form-control" type="text" placeholder="Last Name"> 
+    <label for="floatingInput">Last Name</label>
+</div>
+<div class="form-floating mb-3">
+  <input id="floatingInput" class="form-control" type="email" placeholder="name@example.com"> 
+  <label for="floatingInput">Email</label>
+</div>
+<div class="form-floating mb-3">
+  <input id="floatingPassword" class="form-control" type="password" placeholder="password"> 
+  <label for="floatingPassword">Password</label>
+</div>
+<div>
+  <button class="btn" type="submit">Claim your free trial </button> 
+</div>
+
+
+  <p >By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+
 </form>
+</div>
 
 </div>
 </div>
